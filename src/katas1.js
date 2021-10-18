@@ -1,15 +1,16 @@
-function oneThroughTwenty(numero) {
+function oneThroughTwenty()
+) {
   let meuArray = []
   for(contador=1; contador <=20; contador++){
      meuArray.push(contador)
 }
 return meuArray
 }
-console.log(oneThroughTwenty(0))            
+console.log(oneThroughTwenty())            
 
 //call function oneThroughTwenty
 
-function evensToTwenty(numero) {
+function evensToTwenty() {
   let meuArray = []
   for(let contador = 1; contador<=20; contador++){
   if(contador % 2 ===0){
@@ -18,11 +19,11 @@ function evensToTwenty(numero) {
   }
   return meuArray
 }
-console.log(evensToTwenty(0))
+console.log(evensToTwenty())
 
 //call function evensToTwenty
 
-function oddsToTwenty(numero) {
+function oddsToTwenty() {
   let meuArray = []
   for(let contador = 1; contador<=20; contador++){
   if(contador % 2 ===1){
@@ -32,9 +33,9 @@ function oddsToTwenty(numero) {
   return meuArray
 
 }
-console.log(oddsToTwenty(0))
+console.log(oddsToTwenty())
 //call function oddsToTwenty
-function multiplesOfFive(numero) {
+function multiplesOfFive() {
   let meuArray = []
   for(let contador = 5; contador<=100; contador++){
   if(contador % 5 ===0){
@@ -43,7 +44,7 @@ function multiplesOfFive(numero) {
   }
   return meuArray
 }
-console.log(multiplesOfFive(0))
+console.log(multiplesOfFive())
 
 //call function multiplesOfFive
 
@@ -62,10 +63,10 @@ function squareNumbers() {
       }
          return  meuArray
       }
-      console.log(squareNumbers(0))
+      console.log(squareNumbers())
 //call function squareNumbers
 
-function countingBackwards(numero) {
+function countingBackwards() {
   let meuArray = []
   for(let contador = 20; contador >=1; contador--){
   meuArray.push(contador)
@@ -73,11 +74,11 @@ function countingBackwards(numero) {
   return meuArray
 }
 
-console.log(countingBackwards(0))
+console.log(countingBackwards())
 
 //call function countingBackwards
 
-function evenNumbersBackwards(numero) {
+function evenNumbersBackwards() {
   let meuArray = []
   for(let contador = 20; contador>=1; contador--){
   if(contador % 2 ===0){
@@ -87,11 +88,11 @@ function evenNumbersBackwards(numero) {
   }
   return meuArray
 }
-console.log(evenNumbersBackwards(0))
+console.log(evenNumbersBackwards())
 
 //call function evenNumbersBackwards
 
-function oddNumbersBackwards(numero) {
+function oddNumbersBackwards() {
   let meuArray = []
   for(let contador = 20; contador>=0; contador--){
   if(contador % 2 ===1){
@@ -100,11 +101,11 @@ function oddNumbersBackwards(numero) {
   }
   return meuArray
 }
-console.log(oddNumbersBackwards(0))
+console.log(oddNumbersBackwards())
 
 //call function oddNumbersBackwards
 
-function multiplesOfFiveBackwards(numero) {
+function multiplesOfFiveBackwards() {
   let meuArray = []
   for(let contador = 100; contador>=5; contador--){
   if(contador % 5 ===0){
@@ -113,7 +114,7 @@ function multiplesOfFiveBackwards(numero) {
   }
   return meuArray
 }
-console.log(multiplesOfFiveBackwards(0))
+console.log(multiplesOfFiveBackwards())
 
 //call function multiplesOfFiveBackwards
 
